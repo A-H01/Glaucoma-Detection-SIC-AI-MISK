@@ -6,10 +6,10 @@ A comprehensive deep learning pipeline for automated glaucoma detection through 
 
 ## 📋 Project Overview
 
-This project addresses automated glaucoma detection using computer vision and deep learning techniques. It implements a complete pipeline from data acquisition to clinical risk assessment:
+This project addresses automated glaucoma detection using computer vision and deep learning techniques on **retinal fundus images**. It implements a complete pipeline from data acquisition to clinical risk assessment:
 
 - **Task 1**: Dataset acquisition from Kaggle
-- **Task 2**: U-Net model training for optic disc/cup segmentation
+- **Task 2**: U-Net model training for optic disc/cup segmentation  
 - **Task 3**: Hyperparameter tuning experiments
 - **Task 4**: Model evaluation on REFUGE dataset
 - **Task 5**: CDR calculation and glaucoma risk classification
@@ -27,7 +27,7 @@ This project addresses automated glaucoma detection using computer vision and de
 ## 📊 Datasets
 
 ### ORIGA Dataset (Training)
-- **Source**: [Kaggle - Glaucoma Datasets](https://www.kaggle.com/datasets/deathtrooper/glaucoma-datasets)
+- **Source**: [Kaggle - Glaucoma Detection](https://www.kaggle.com/datasets/sshikamaru/glaucoma-detection)
 - **Images**: 650 fundus images (512×512)
 - **Annotations**: Optic disc and cup segmentation masks
 - **Usage**: Model training and hyperparameter tuning
@@ -71,6 +71,7 @@ pip install -r requirements.txt
    - Download `kaggle.json` and place it in:
      - **Windows**: `C:\Users\<username>\.kaggle\kaggle.json`
      - **Linux/Mac**: `~/.kaggle/kaggle.json`
+   - The dataset will be downloaded from: https://www.kaggle.com/datasets/sshikamaru/glaucoma-detection
 
 ## 📁 Project Structure
 
@@ -160,6 +161,8 @@ model, history = segmentation_model.train_segmentation_model(
 ```
 
 ## 📈 Results
+
+> **For detailed analysis, visualizations, and statistical summaries, see [results/README.md](results/README.md)**
 
 ### Segmentation Performance
 - **Best Validation Dice**: ~0.92 (Task 3, Experiment 3)
