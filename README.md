@@ -1,5 +1,7 @@
 # Glaucoma Detection using Deep Learning
 
+> **A Final Project for the SIC-AI-MISK Program**
+
 A comprehensive deep learning pipeline for automated glaucoma detection through optic disc and cup segmentation in fundus images. This project implements a U-Net architecture for semantic segmentation and calculates the Cup-to-Disc Ratio (CDR) for glaucoma risk assessment.
 
 ## 📋 Project Overview
@@ -230,7 +232,25 @@ CDR_THRESHOLD_MODERATE = 0.7
 
 ## 🤝 Contributors
 
-**Group 10** - SIC AI MISK Final Project
+**Group 10** - SIC-AI-MISK Final Project
+
+This project was developed as part of the **Samsung Innovation Campus (SIC) - AI program** in collaboration with **MISK Foundation**.
+
+### About SIC-AI-MISK
+
+The **Samsung Innovation Campus (SIC) - AI program** in partnership with **MISK Foundation** is an intensive AI education initiative that aims to build Saudi Arabia's artificial intelligence capabilities by training the next generation of AI practitioners and researchers. The program combines theoretical foundations with hands-on project experience in cutting-edge AI and machine learning applications.
+
+**Program Highlights**:
+- Advanced training in AI, deep learning, and computer vision
+- Real-world capstone projects addressing healthcare and societal challenges
+- Collaboration between Samsung Innovation Campus and MISK Foundation
+- Focus on practical applications of AI in Saudi Arabia
+
+**This Project**:
+- **Program**: Samsung Innovation Campus (SIC) - AI - MISK  
+- **Project Type**: Final Capstone Project  
+- **Topic**: Automated Glaucoma Detection using Deep Learning
+- **Application Domain**: Medical AI and Healthcare
 
 ## 📚 References
 
@@ -250,5 +270,5 @@ This project is created for educational purposes as part of the SIC AI MISK prog
 
 ## 🔗 Links
 
-- [Kaggle Dataset](https://www.kaggle.com/datasets/deathtrooper/glaucoma-datasets)
+- [Kaggle Dataset](https://www.kaggle.com/datasets/sshikamaru/glaucoma-detection)
 - [Project Documentation](./docs/)
