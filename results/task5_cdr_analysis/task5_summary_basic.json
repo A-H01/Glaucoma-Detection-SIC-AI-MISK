@@ -1,0 +1,9 @@
+{
+  "n_images_processed": 200,
+  "pred_low": 165,
+  "pred_moderate": 35,
+  "pred_high": 0,
+  "gt_low": 106,
+  "gt_moderate": 94,
+  "gt_high": 0
+}

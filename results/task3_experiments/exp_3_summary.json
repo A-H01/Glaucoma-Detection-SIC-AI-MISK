@@ -1,0 +1,11 @@
+{
+  "name": "exp_3",
+  "lr": 0.0001,
+  "batch_size": 8,
+  "aug": "strong",
+  "best_val_dice": 0.9212434326901155,
+  "best_epoch": 8,
+  "final_lr": 0.0001,
+  "num_epochs_ran": 8,
+  "time_s": 1159.544023990631
+}
